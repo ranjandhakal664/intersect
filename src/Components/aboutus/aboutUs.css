@@ -1,0 +1,138 @@
+
+.heading h1:after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 5px;
+    background: #05078a;
+    margin-top: 4px;
+    
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.hidden {
+    visibility: hidden !important;
+}
+
+
+/* start of our services section */
+
+#our-services {
+ 
+  min-height: 5vh;
+  padding-top: 5vh;
+/* OUR SEERVICES LEFT SIDE */
+}
+#our-services .desc {
+    width: 30%;
+    float: left;
+}
+
+#our-services .desc .heading h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+}
+
+#our-services .desc .text {
+    background: linear-gradient(to right, #0c1e81, #7aa6e9); /* Change the colors as per your gradient */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#our-services .desc .text h4 {
+    font-size: 18px; /* Change to your desired font size */
+    color: #fff; /* Change to your desired text color */
+    margin: 0;
+}
+
+
+
+/* OUR SERVICES RIGHT SIDE */
+
+#our-services .services {
+    width: 67%;
+    float: left;
+}
+
+#our-services .services .column {
+    float: left;
+    margin-right: 60px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+#our-services .services .column .service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(45deg, #080e68, #142dbb, #123badd8, #0c35ee83);;
+    transition: all 0.1s ease;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#our-services .services .column .service:hover {
+    background: linear-gradient(45deg, #0c35ee83,  #123badd8, #142dbb, #080e68);;
+    
+}
+
+
+#our-services .services .column .service .service-desc {
+    transform: rotate(-45deg);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5px;
+    font-family: 'Aclonica', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+
+
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+#our-services .services .column .service .service-desc .service-icon  {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #f5f3f2;
+}
+#our-services .services .column .service .service-desc .service-txt {
+    font-size: 14px; 
+    color: #ffffff;
+}
+
+
+/* end of our services section */
+
+/* media query */
+
+@media all and (max-width: 967px) {
+    #our-services {
+        padding-top: 60px;
+    }
+    
+    #our-services .desc {
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+    
+    #our-services .services {
+        width: 100%;
+    }
+    
+    #our-services .services .column {
+        transform: rotate(0deg);
+        margin-right: 10px;
+    }
+    
+    #our-services .services .column .service .service-desc {
+        transform: rotate(0deg);
+    }
+}

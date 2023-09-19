@@ -1,0 +1,350 @@
+.carrier-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .see-hiring-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s, font-size 0.3s;
+    margin-bottom: 70px;
+    margin-top: 60px;
+  }
+  
+  .see-hiring-button:hover {
+    background-color: #0f188f21;
+    transform: scale(1.05);
+    font-size: 18px;
+  }
+  
+  /* Styles for the topic section */
+  .topic {
+    text-align: center;
+    background: linear-gradient(45deg, #07105f, #176ee0  ,#167faf, #4c8bdd); /* Replace these colors with your desired gradient colors */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .topic h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+  
+  .topic p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  .timeline-content-a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  
+  
+  .timeline-content-a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .timeline-image-a {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .timeline-image-a img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .text-container-a h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .text-container-a p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 10px; /* Adjust the spacing as needed */
+  }
+  
+  /* Timeline item styles */
+  .timeline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .timeline-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .timeline-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .timeline-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .timeline-image {
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(9, 65, 185, 0.719);
+  }
+  
+  .timeline-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(28, 17, 82, 0.1);
+  }
+  
+
+.big-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.value-card {
+  flex: calc(33.33% - 20px);
+  background-color: #eef6ff; /* Background color for value cards */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 20px;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Typography */
+h1, h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+h4{
+    font-size: 30px;
+    color: #11217c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center the text within the card */
+}
+p {
+  font-size: 18px;
+  color: #11138f;
+  line-height: 1.5;
+}
+
+.value-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #1b129e;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .timeline-content {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-image {
+    width: 100%;
+  }
+  
+  .big-card {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .value-card {
+    flex: 100%;
+  }
+}
+
+  .card-carrier {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #eef6ff; /* Light blue background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Add this for the dots positioning */
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+  }
+  
+  .card-carrier:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-content-carrier {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card-content-carrier h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #080000;
+  }
+  
+  .card-content-carrier p {
+    font-size: 18px;
+    display: flex;
+    color: #121a8b;
+    line-height: 1.5;
+    flex: 1;
+    
+  }
+  .card-content-carrier {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card-image {
+    width: 50%; /* Adjust the width as needed */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    mask-image: linear-gradient(to right, transparent, rgb(5, 5, 5) 1%, black 100%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 1%, black 100%, transparent);
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .text-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #40424b;
+  }
+  
+  .text-content p {
+    font-size: 18px;
+    display: flex;
+    color: #062b7a;
+    line-height: 1.5;
+  }
+  
+  .email-subscription-form label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .email-subscription-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .email-subscription-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .email-subscription-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dark blue dots */
+  .wave-dots {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wave-dots span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 4px;
+    background-color: #0056b3;
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: wave 1.5s ease-in-out infinite;
+  }
+  
+  .wave-dots span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .wave-dots span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+ 

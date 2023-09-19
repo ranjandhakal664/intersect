@@ -1,0 +1,35 @@
+.privacy-policy-container {
+    position: relative; /* Add this line */
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Set a light background color */
+  }
+  
+  .timeline-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    border-bottom:3px solid #0a097a; 
+    padding-left: 1px;
+  }
+  
+  .policy-section {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #a1a1c4;
+    width: 60%; /* Adjust the width of the border */
+    padding-bottom: 5px;
+  }
+  
+  .section-content {
+    font-size: 16px;
+  }
+  
+  

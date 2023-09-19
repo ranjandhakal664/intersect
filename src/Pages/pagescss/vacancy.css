@@ -1,0 +1,75 @@
+/* Styling for the vacancy container */
+.vacancy-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for position title */
+  .vacancy-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for position name */
+  .vacancy-container h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for description */
+  .vacancy-container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for requirements and responsibilities headings */
+  .vacancy-container h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Styling for lists */
+  .vacancy-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for list items */
+  .vacancy-container li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for application info */
+  .vacancy-container .application-info {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  /* Styling for apply button */
+  .vacancy-container .apply-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Hover effect for the button */
+  .vacancy-container .apply-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  

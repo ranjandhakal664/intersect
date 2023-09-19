@@ -1,0 +1,78 @@
+
+
+/* Styles for the main card container */
+.card-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Styles for the media container */
+.media-container {
+  display: flex;
+  width: 50%;
+  margin-right: 20px;
+}
+
+/* Styles for image elements */
+.media-element {
+  max-width: 100%; /* Limit the image to the container's width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  max-height: 1000px; /* Adjust the maximum height as needed */
+}
+
+
+.demo-button {
+  background-color: #007bff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.demo-button:hover {
+  background-color: #0057b34b;
+}
+/* Wave Animation */
+@keyframes waveCircle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(10px * sin(1turn * var(--n))));
+  }
+}
+
+/* Set custom properties for each circle */
+.circle:nth-child(1) {
+  --n: 0;
+}
+
+.circle:nth-child(2) {
+  --n: 0.25;
+}
+
+.circle:nth-child(3) {
+  --n: 0.5;
+}
+
+.circle:nth-child(4) {
+  --n: 0.75;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .circle {
+    width: 15px;
+    height: 15px;
+  }
+}

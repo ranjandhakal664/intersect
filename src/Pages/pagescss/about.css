@@ -1,0 +1,120 @@
+/* pagescss/about.css */
+
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  margin: 30px 0;
+  border-left: 2px solid #0d73b8;
+  padding-left: 20px;
+}
+
+.timeline-item h1, .timeline-item h5 {
+  font-size: 24px;
+  color: #0b5ebd;
+  margin-bottom: 10px;
+}
+
+.timeline-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Additional styling for Navbar and Footer if needed */
+
+
+  .border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  }
+  
+  .border:hover {
+    border: 1px solid white;
+  }
+  
+  
+  .card {
+    height: 379px;
+    width: 300px;
+    background: grey;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .horizontal-card-container {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    align-items: center; /* Center the cards vertically */
+    margin-top: 30px; /* Add margin as needed */
+  }
+  
+  .card-container {
+    margin:10px; /* Adjust as needed for spacing between cards */
+  }
+  @media (max-width: 767px) {
+    .horizontal-card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .card0,
+  .card1,
+  .card2 {
+    background-size: 300px;
+    
+  }
+  
+  
+  
+  h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgb(17, 15, 146);
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .card:hover h2 {
+    opacity: 1;
+  }
+  
+  .fa {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .card:hover .fa {
+    opacity: 1;
+  }
+  
+  .icons {
+    position: absolute;
+    fill: #0a1d74;
+    color: #171177;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }

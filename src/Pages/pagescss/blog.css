@@ -1,0 +1,97 @@
+
+
+/* Generic styles */
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+a:hover {
+  opacity: .6;
+}
+
+/* Styles for the hero image */
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.hero > * {
+  color: white;
+}
+
+.hero > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hero > article > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.hero > article > a {
+  padding: 1rem;
+  margin-top: .75rem;
+}
+
+/* content styles */
+.content {
+  padding: 2rem;
+}
+
+.content > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.content > ul > li {
+  border: 1px solid #E2E2E2;
+  border-radius: .5rem;
+}
+
+.content > ul > li > figure {
+  max-height: 400px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+}
+
+.content > ul > li > figure > img {
+  width: 100%;
+}
+
+.content > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+}
+
+.content > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+.content > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+  color: #666666;
+}
+
+.content > ul > li > a {
+  padding: .5rem 1rem;
+  margin: .5rem;
+}
+
